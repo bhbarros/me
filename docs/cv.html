@@ -2274,11 +2274,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   .distill-site-header .title {
-      font-weight: 600; 
+      font-weight: 600;
   }
 
   ul > li::marker {
     color: rgb(249, 83, 85);
+  }
+
+  /* This is to do image alignment*/
+  img[src*='#left'] {
+      float: left;
+  }
+  img[src*='#right'] {
+      float: right;
+  }
+  img[src*='#center'] {
+      display: block;
+      margin: auto;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2468,6 +2480,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="cv.html">CV</a>
+<a href="research.html">Research</a>
 <a href="teaching.html">Teaching</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>

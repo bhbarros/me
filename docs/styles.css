@@ -99,9 +99,21 @@ d-article a {
 }
 
 .distill-site-header .title {
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 ul > li::marker {
   color: rgb(249, 83, 85);
+}
+
+/* This is to do image alignment*/
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
 }
